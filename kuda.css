@@ -1,0 +1,142 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    /* box-shadow: 0px 0px 5px; */
+}
+
+header > div {
+    color: rgb(128, 0, 128);
+    font-size: 30px;
+    font-family: mulish;
+    font-weight: 900px;
+    margin-left: 70px;
+}
+
+.press {
+    background-color: aliceblue;
+    color: blueviolet;
+    font-family: mulish;
+    font-weight: 900;
+    margin-left: 500px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+}
+
+body {
+    margin-left: 100px;
+    
+}
+
+.visit {
+    margin-top: 0px;
+    padding: 10px;
+    margin-right: 1000px;
+    background-color: aliceblue;
+    color: #800080f3;
+    font-weight: 300;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px;
+}
+
+.visit a {
+    color: green;
+}
+
+h1 {
+    color:black;
+    font-family: mulish;
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+.container {
+    padding: 5rem;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 1000px;
+    text-align: justify;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px;
+    box-sizing: content-box;
+    width: auto;
+    height: auto;
+}
+
+.container p {
+    color: gray;
+    font-family: mulish;
+    font-size: 20px;
+}
+
+.for-example {
+    font-family: mulish;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-area: auto;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    /* box-shadow: 0px 0px 3px; */
+    color: grey;
+    font-size: 15px;
+    font-weight: 500;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+
+label{
+    font-size: 0.75rem;
+}
+
+.sign-in button {
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #7e3a7e6c;
+    color: white;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 20px;
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+}
+
+
+/* footer >.foot {
+    font-size: 15px;
+    margin-bottom: 0rem;
+} */
+
+/* footer a {
+    color: #800080;
+    font-weight: 500;
+    text-decoration: none;
+} */
+
+.svg img {
+    margin-left: 20rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-flex{
+    display: flex;
+}
+
+form a{
+    color: #800080;
+    text-decoration: none;
+}

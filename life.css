@@ -1,0 +1,23 @@
+#head {
+    text-align: center;
+    /* background-color: #f0f8ff; */
+    font-size: 40px;
+    font-weight: 900;
+    font-family: monospace;
+}
+
+body {
+    text-align: center;
+    font-size: x-large;
+    font-family: fantasy;
+    color: darkslategray;
+}
+
+#head span {
+    color:navy;
+    font-style: italic;
+}
+
+hr {
+    font-size: 10rem;
+}

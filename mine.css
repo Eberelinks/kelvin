@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+}
+
+.logo {
+    width: 300px;
+    height: 300px; 
+    /* border-radius: 50px; */
+    outline: 5px solid rebeccapurple;
+    margin-top: 80px;
+    margin-left: 50px;
+    overflow: hidden;
+    /* border-top-left-radius: 100px;
+    border-bottom-right-radius: 30px; */
+    border-radius: 50px;
+}
+
+div.logo img{
+    /* object-fit: contain; */
+    width: 100%;
+    height: auto;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 30rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 1rem 3rem; */
+    align-items: center;
+}
+
+.items a:link {
+    text-decoration: double;
+    color: green;
+    font-size: 30px;
+    font-weight:300;
+}
+
+.items a:hover {
+    color: red;
+}
+
+/* .active {
+    color:crimson !important;
+}  */
+
+button {
+    color: rebeccapurple;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1rem;
+    margin-right: 80px;
+    background-color:chartreuse;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+ button:hover {
+    background-color: whitesmoke;
+    /* border: 0px;  */
+    color: red;
+    outline: 5px solid red;
+} 
+
+.beauty img {
+    width: 200px;
+    height: 200px;
+    border-radius: 0px;
+    outline: 3px solid gray;
+    align-items: center;
+    margin-left: 150px;
+    /* align-items: center; */
+}
+
+.list {
+    border-radius: 0px;
+    outline: 0px solid gray;
+    gap: 10px;
+}
+
+.bio {
+    color: khaki;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+div .mine {
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+div .para {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 100;
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.head {
+    margin: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+
+.foot {
+    text-align: center;
+    color: snow;
+    font-size: 2rem;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+footer .last {
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: burlywood;
+}
+
+
+
+
+

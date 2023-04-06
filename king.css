@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 1px;
+    padding: 1px;
+    box-shadow: 10px 0px 30px solid gray;
+}
+
+ul {
+    text-transform: capitalize;
+    color: darkmagenta;
+    background-color: black;
+    font-weight: 300;
+    font-size: 5rem;
+    text-align: justify;
+    text-decoration:solid;
+}
+
+li {
+    text-align: justify;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+
+}

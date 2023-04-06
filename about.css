@@ -1,0 +1,17 @@
+body {
+    background-color:cornsilk;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head {
+    color: tan;
+    font-weight: 300;
+    font-size: 100px;
+    text-align: center;
+}
+
+.para{
+    color: darkorange;
+    font-weight: 100;
+    font-size: 50px;
+}
